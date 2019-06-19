@@ -1,0 +1,43 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  /* background-color: blue; */
+  height: 300px;
+  padding: 0px;
+  
+}
+
+.board li {
+  width: 98px;
+  height: 98px;
+  background-color: papayawhip;
+  padding: 0px;
+  list-style: none;
+  border: 1px solid black;
+}
+
+ li:hover  {
+  background-color: yellow;
+
+}
+
+
+#x {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  text-align: center;
+  font-size: 50px;
+}
+#o {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+  text-align: center;
+  font-size: 50px;
+}
+
+
